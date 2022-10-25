@@ -6,6 +6,6 @@ def main(a):
     Returns:
         bool: answer
     """
-    return (a>9 and a<100) (a//10+a%10)%2!=0
+    return (a>9 and a<100) and (a//10+a%10)%2!=0
 
 print(main(255))
